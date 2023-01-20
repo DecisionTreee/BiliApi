@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.27.0" />
+    <PackageReference Include="Selenium.RC" Version="3.1.0" />
+    <PackageReference Include="Selenium.Support" Version="4.7.0" />
+    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="109.0.1518.44-pre" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
