@@ -26,7 +26,7 @@ namespace BiliApi.Controllers
         {
             string time = string.Empty;
             string guid = string.Empty;
-            string snapshot = null;
+            string snapshot = string.Empty;
 
             var service = EdgeDriverService.CreateDefaultService();
             var options = new EdgeOptions();
