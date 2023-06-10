@@ -18,4 +18,4 @@
 | guid | string | 暂时没用，对应本地resource/dynamic/{guid}.png |
 | snapshot | string | 动态快照的base64编码 |
 
-处理时间约为5秒
+处理时间约为5秒（包括打开浏览器加载网页的时间）
